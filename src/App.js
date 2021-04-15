@@ -1,13 +1,7 @@
-// src/App.js
-
 import React from 'react';
 import './App.css';
 import Cars from './Cars';
 
-function App() {
-  return (
-    <Cars />
-  );
-}
+const App = () => (<Cars />);
 
 export default App;
